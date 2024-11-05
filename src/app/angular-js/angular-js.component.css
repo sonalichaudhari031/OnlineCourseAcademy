@@ -1,0 +1,8 @@
+
+      body {
+        background-image: url('https://images.pexels.com/photos/7181181/pexels-photo-7181181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-size: cover; /* or 'contain', or specific values like '100px 100px' */
+        background-repeat: no-repeat; /* prevents the image from repeating */
+        background-position: center center; /* centers the image */
+      }
+     

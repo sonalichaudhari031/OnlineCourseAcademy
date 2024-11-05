@@ -1,0 +1,89 @@
+/* Main Gallery Styles */
+.course-gallery {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  /* Header */
+  .course-gallery h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  /* Image Upload Button */
+  .upload-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* No Images Message */
+  .no-images {
+    color: #888;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  /* Image Container */
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .course-image {
+    position: relative;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .course-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-btn:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+  }
+  

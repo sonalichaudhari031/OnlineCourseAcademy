@@ -1,0 +1,45 @@
+
+
+
+
+<div class="container mt-5">
+  <h1 class="text-center mb-5" style="color: #141294;"> "Your Path to Knowledge Starts Here—And It’s Free!"</h1>
+
+  <div class="row">
+    <!-- Loop through each certification -->
+    <div class="col-md-4" *ngFor="let cert of certifications">
+      <div class="card shadow-sm mb-4">
+        <img [src]="cert.imgUrl" class="card-img-top" alt="{{ cert.title }} course">
+        <div class="card-body">
+          <h5 class="card-title">{{ cert.title }}</h5>
+          <p class="card-text">{{ cert.description }}</p>
+          
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+<br> <br> <br>
+
+   
+<div class= "container  " style=" font-style: italic;  font-weight: 300; font-size: larger; color: #141294 ;
+ box-sizing: border-box; border-bottom: #141294; border-width: 0ch; font-size: large; max-width: fit-content; font-display: 10pc;">
+  "The future belongs to the curious. Transform your skills, discover new passions, and take control of your
+   destiny—all with free online courses. "
+</div>
+
+
+
+ <!-- <img src=""
+style="height: 700px; width: 1500px; padding: 30px;
+ margin-top: auto; margin-left: auto; border: 0cap; border-color: blue; opacity: 0.7;">
+  -->
+
+<!-- 
+<img src="https://st3.depositphotos.com/3051589/16340/i/380/depositphotos_163405792-stock-photo-online-learning-connectivity-technology-coaching.jpg"
+style="height: 400px; width: 400px; border: radius 50% solid;border: none;
+background-clip: content-border;
+border-radius: 50%; margin-left: 350px;
+margin-bottom: 220px;;
+background: rgb(32, 46, 194); margin-left: 10px; margin-bottom:auto;text-align: left ;; -->

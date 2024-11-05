@@ -1,0 +1,24 @@
+<div class="container w-70">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Title</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">NO</th>
+          
+          <th scope="col" colspan="2">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+       <tr *ngFor="let i of courses">
+          <th scope="row">{{i.id}}</th>
+          <td>{{i.title}}</td>
+      
+          <td> class="btn btn-primary" [routerLink]="['/courses/edit', i.id]">Update</td> 
+          <td> <a class="btn btn-danger" (click)="deleteCourse(i.id)">Delete</a></td>
+       </tr>
+      </tbody>
+    </table>
+  </div>
